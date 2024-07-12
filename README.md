@@ -1,88 +1,27 @@
-<p align="center">
-  <a href="https://angular.dev" target="blank"><img src="https://devtalles.com/images/angular.png?new" width="200" alt="Angular Logo" /></a>
-</p>
+# Bases
 
-# Angular de cero a experto
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
 
-Descargar esta hoja de atajos:
-[Guías de atajos - Angular ](https://devtalles.com/files/angular-cheat-sheet.pdf?signals)
+## Development server
 
-1. [Node JS](https://nodejs.org/es/)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-2. [VSCode - Visual Studio Code](https://code.visualstudio.com/)
+## Code scaffolding
 
-3. [Google Chrome](https://www.google.com.mx/intl/es-419/chrome/?brand=CHBD&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7AAMm13Ae3KDIib46Laxfe6tzD_w4yvDdpq5XsPw1eNlOkZ_0-3x3IaAvLEEALw_wcB&gclsrc=aw.ds)
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-4. [Postman](https://www.postman.com/downloads/)
+## Build
 
-5. [Git](https://git-scm.com/)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-```
-git config --global user.name "Tu nombre"
-git config --global user.email "Tu correo"
-```
+## Running unit tests
 
-6. [Docker Desktop](https://www.docker.com/get-started)
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-7. Table Plus: (opcional)
+## Running end-to-end tests
 
-- [Windows / Mac OSX](https://tableplus.com/)
-- [Linux](https://tableplus.com/linux)
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-8. [Mongo Compass](https://www.mongodb.com/try/download/compass)
+## Further help
 
-## AngularCLI
-
-Documentación [oficial de Angular CLI](https://angular.io/cli)
-
-Ejecutar el siguiente comando como **administrador**
-
-```
-npm install -g @angular/cli
-```
-
-## Extensiones de VSCode
-
-- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-
-- [Angular Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
-
-- [Angular Schematics](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.angular-schematics)
-
-- [Angular 2 Inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline)
-
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-
-- [Activitus Bar](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.activitusbar)
-
-- [Auto import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport)
-
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-
-- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-
-- [TypeScript Importer - optional](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter)
-
-- [Editor Config for VSCode](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-
-- [Terminal](https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal)
-
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-
-## Extensiones de Chrome
-
-- [Angular DevTools](https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh/related)
-
-- [Json Viewer Awesome](https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc)
-
-### Tema que estoy usando en VSCode y Wallpaper del curso:
-
-- [Aura Theme](https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme)
-
-- [Iconos](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-
-- [Wallpapers Developer](https://drive.google.com/drive/folders/1ItU8rbSGJjnh2USOBGwaCo9nYKifPJ6m?usp=sharing)
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
