@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './list.component.html',
   styleUrl: './list.component.css',
 })
-export class ListComponent {}
+export class ListComponent {
+  public heroNames: string[] = [
+    'Messi',
+    'Mascherano',
+    'Carlos Jara Saguier',
+    'Lamine Yamal',
+  ];
+}
