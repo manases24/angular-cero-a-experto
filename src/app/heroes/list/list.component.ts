@@ -11,5 +11,13 @@ export class ListComponent {
     'Mascherano',
     'Carlos Jara Saguier',
     'Lamine Yamal',
+    'Zidane',
+    'Ronaldo',
+    'Chiqui Arce',
   ];
+  public deletedHero?: string;
+
+  removeLastHero(): void {
+    this.deletedHero = this.heroNames.pop();
+  }
 }
