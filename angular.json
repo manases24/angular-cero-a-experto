@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "bases": {
+    "gifsapp": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/bases",
+            "outputPath": "dist/gifsapp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "bases:build:production"
+              "buildTarget": "gifsapp:build:production"
             },
             "development": {
-              "buildTarget": "bases:build:development"
+              "buildTarget": "gifsapp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -102,8 +102,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "25e78467-a6e8-4b6d-9fba-1526b356b2b4"
   }
 }
