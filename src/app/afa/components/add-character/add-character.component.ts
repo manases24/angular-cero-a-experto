@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Character } from '../../interfaces/character.interface';
 
 @Component({
@@ -7,18 +7,8 @@ import { Character } from '../../interfaces/character.interface';
   styleUrl: './add-character.component.css',
 })
 export class AddCharacterComponent {
-  public characters: Character[] = [
-    {
-      name: 'Messi',
-      team: 'Inter Miami CF',
-    },
-    {
-      name: 'Garnacho',
-      team: 'Manchester United',
-    },
-    {
-      name: 'Julian Alvarez',
-      team: 'Manchester City',
-    },
-  ];
+  public character: Character = {
+    name: '',
+    team: '',
+  };
 }
