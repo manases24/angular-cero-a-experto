@@ -9,6 +9,10 @@ export class GifsService {
   constructor() {}
 
   get tagsHistory() {
-    return this._tagHistory;
+    return [...this._tagHistory];
+  }
+
+  searchTag(tag: string): void {
+    this._tagHistory.unshift(tag);
   }
 }
