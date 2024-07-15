@@ -1,4 +1,5 @@
 ¿Qué veremos en esta sección?
+
 La sección contendrá nuestra primera aplicación real de Angular, este es un breve listado de los temas fundamentales:
 
 Modularización de la aplicación
