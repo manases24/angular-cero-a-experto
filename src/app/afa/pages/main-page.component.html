@@ -3,9 +3,9 @@
 
 <div class="row">
   <div class="col">
-    <app-afa-list [characterList]="characters" />
+    <app-afa-list [characterList]="characters" (onDelete)="onDeleteCharacter($event)"/>
   </div>
   <div class="col">
-    <app-afa-add-character />
+    <app-afa-add-character (onNewCharacter)="onNewCharacter($event)" />
   </div>
 </div>
