@@ -14,7 +14,7 @@ export class AfaService {
     { id: uuid(), name: 'Emiliano Martinez', team: 'Aston Villa' },
   ];
 
-  onNewCharacter(character: Character): void {
+  addCharacter(character: Character): void {
     const newCharacter: Character = { id: uuid(), ...character };
     this.characters.push(newCharacter);
   }

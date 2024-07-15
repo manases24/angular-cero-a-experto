@@ -12,4 +12,12 @@ export class MainPageComponent {
   get characters(): Character[] {
     return [...this.afaService.characters];
   }
+
+  onDeleteCharacter(id: string): void {
+    this.afaService.deleteCharacterById(id);
+  }
+
+  onNewCharacter(character: Character): void {
+    this.afaService.addCharacter(character);
+  }
 }
