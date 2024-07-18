@@ -8,8 +8,6 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 
-
-
 @NgModule({
   declarations: [
     AboutPageComponent,
@@ -18,16 +16,13 @@ import { SearchBoxComponent } from './components/search-box/search-box.component
     SidebarComponent,
     SearchBoxComponent,
   ],
-  imports: [
-    CommonModule,
-    RouterModule,
-  ],
+  imports: [CommonModule, RouterModule],
   exports: [
     AboutPageComponent,
     ContactPageComponent,
     HomePageComponent,
     SidebarComponent,
     SearchBoxComponent,
-  ]
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
