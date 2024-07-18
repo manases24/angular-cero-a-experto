@@ -13,7 +13,7 @@ export class ByRegionPageComponent {
   constructor(private countriesService: CountriesService) {}
 
   searchByRegion(term: string) {
-    this.countriesService.searchByCountry(term).subscribe((countries) => {
+    this.countriesService.searchByRegion(term).subscribe((countries) => {
       this.countries = countries;
     });
   }
