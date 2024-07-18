@@ -26,9 +26,8 @@ export class CountryPageComponent implements OnInit {
         )
       )
       .subscribe((country) => {
-        // if (!country) return this.router.navigateByUrl('');
-        // return (this.country = country);
-        console.log({ country });
+        if (!country) return this.router.navigateByUrl('');
+        return (this.country = country);
       });
   }
 }
