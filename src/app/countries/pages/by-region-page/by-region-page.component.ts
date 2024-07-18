@@ -3,17 +3,17 @@ import { Country } from '../../interfaces/country';
 import { CountriesService } from '../../services/countries.service';
 
 @Component({
-  selector: 'countries-by-region-page',
+  selector: 'app-by-region-page',
   templateUrl: './by-region-page.component.html',
-  styles: ``,
+  styles: [],
 })
 export class ByRegionPageComponent {
   public countries: Country[] = [];
 
   constructor(private countriesService: CountriesService) {}
 
-  searchByRegion(term: string) {
-    this.countriesService.searchByRegion(term).subscribe((countries) => {
+  searchByRegion(region: string): void {
+    this.countriesService.searchRegion(region).subscribe((countries) => {
       this.countries = countries;
     });
   }
